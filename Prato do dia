@@ -1,0 +1,16 @@
+print('Menu do dia ::.\n\n 1. Virado a paulista \n 2. Bife a rolê \n 3. Feijoada \n 4. Macarrão com frango \n 6. Filé de peixe\n')
+
+prato = int(input('digite o código do prato: '))
+
+if prato == 1:
+  print('Virado a paulista')
+elif prato == 2:
+ print('Bife a rolê')
+elif prato == 3:
+ print('Feijoada')
+elif prato == 4:
+  print('Macarrão com frango')
+elif prato == 6:
+  print('Filé de peixe')
+else:
+  print('Ifelizmente esse prato não está no menu do dia')
