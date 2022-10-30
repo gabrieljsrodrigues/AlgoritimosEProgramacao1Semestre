@@ -1,0 +1,11 @@
+l = input()
+
+sex1 = ('M')
+sex2 = ('m')
+sex3 = ('F')
+sex4 = ('f')
+
+if l == sex1 or l== sex2 or l==  sex3 or l == sex4:
+  print('sexo válido')
+else:
+  print('sexo inválido')
