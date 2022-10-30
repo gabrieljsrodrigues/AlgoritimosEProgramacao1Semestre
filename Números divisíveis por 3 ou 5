@@ -1,0 +1,6 @@
+numX = int(input(''))
+
+if (numX % 5)==0 and (numX % 3)==0:
+  print('válido')
+else:
+  print('inválido')
