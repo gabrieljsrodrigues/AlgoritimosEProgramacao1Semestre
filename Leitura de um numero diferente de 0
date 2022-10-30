@@ -1,0 +1,8 @@
+num = int(input('digite: '))
+
+if num> 0:
+  print('numero positivo')
+elif num == 0:
+  print('digite um numero diferente de zero')
+else:
+  print('numero negativo')
