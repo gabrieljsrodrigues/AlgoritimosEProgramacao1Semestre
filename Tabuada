@@ -1,0 +1,6 @@
+n = int(input())
+l = 0
+
+while l <=10:
+  print(n,'x',l,'=',n*l)
+  l = l + 1 
