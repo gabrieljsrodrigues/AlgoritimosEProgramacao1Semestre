@@ -1,0 +1,11 @@
+from math import pow
+
+a=int(input())
+b=int(input())
+c=int(input())
+
+for i in range(1, c+1):
+    tg=a*pow(b, i-1)
+    print("{:.0f}" .format(tg),end="")
+    if(i<c):
+        print(end=", ")
