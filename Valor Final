@@ -1,0 +1,19 @@
+vlrX = float(input())
+cod =  float(input())
+
+vlrComDesconto = vlrX * 0.1
+vlrComDescont = vlrX *0.05
+vlrComJuros = vlrX  *0.1
+vlrFinal = vlrX - vlrComDesconto
+vlrFina = vlrX - vlrComDescont
+vlrFin = vlrX
+vlrFi = vlrX + vlrComJuros
+
+if cod == 1:
+  print('%.2f'% vlrFinal)
+elif cod == 2:
+  print('%.2f'% vlrFina)
+elif cod == 3:
+  print('%.2f'% vlrFin)
+elif cod == 4:
+  print('%.2f'% vlrFi)
