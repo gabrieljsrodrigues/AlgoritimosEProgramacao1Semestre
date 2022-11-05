@@ -1,0 +1,36 @@
+import math
+
+x = int(input())
+y = int(input())
+
+ponto = int(input())
+
+for i in range(0, ponto):
+  x2 = int(input())
+  y2 = int(input())
+  x2 -= x
+  y2 -= y
+  if x2>0 and y2>0:
+    print(f"Ponto {x2, y3} esta no 1º quadrante.")
+  elif x2>0 and  y2<0:
+      print(f"Ponto {x2, y2} esta no 4º quadrante.")
+  else:
+    print("Eixo das abscissas.")
+    print(x2, y2)
+  if x2<0 and y2>0:
+    print(f"Ponto {x2, y2} esta no 2º quadrante.")
+  elif x2<0 and y2<0:
+      print(f"Ponto {x, y} esta no 3º quadrante.")
+  else:
+    print("Eixo das abscissas.")
+    print(x2, y2)
+    if x2==0:
+      if y2<0 or y2>0:
+        print("Eixo das ordenadas.")
+        print(x2, y2)
+      else:
+        print("Origem")
+        print(x2, y2)
+
+    distancia = math.sqrt((x2**2+y2**2))
+    print(distancia)
