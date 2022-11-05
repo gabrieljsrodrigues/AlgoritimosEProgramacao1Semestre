@@ -1,0 +1,18 @@
+import math
+
+contador = 1
+pi_serie = 4
+erro = abs(pi_serie - math.pi)
+
+while erro > 0.001:
+  contador = contador + 1
+  termo = 4 / (2*contador - 1)
+  if contador % 2 ==0:
+    pi_serie = pi_serie - termo
+  else:
+    pi_serie = pi_serie + termo
+  erro = abs(pi_serie - math.pi)
+
+
+print('qtde termos: ', contador)
+print('valor aprox.: ', pi_serie)
