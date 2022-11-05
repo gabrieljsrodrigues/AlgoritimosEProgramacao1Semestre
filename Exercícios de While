@@ -1,0 +1,23 @@
+n = 0
+menor = 0
+maior = 0
+cont = 0
+qntLoop = int(input())
+
+if qntLoop <= 0:
+  print("Tamanho inválido!")
+else:
+  while cont !=qntLoop:
+    n = float(input())
+    if cont == 0:
+      maior = n
+      menor = n
+    else:
+     if n > maior:
+       maior = n
+     elif n< menor:
+       menor = n
+    cont += 1
+    
+  print(menor)
+  print(maior)
