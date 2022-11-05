@@ -1,0 +1,19 @@
+n = 0 
+qtde = 0 
+media = 0 
+n = int(input())
+soma =0 
+if n == -1:
+  print("Nenhum número foi digitado!")
+
+while n != -1:
+  soma = soma + n
+  qtde += 1
+  media = soma/qtde
+
+  n = int(input())
+
+if qtde != 0:
+  print(soma)
+  print(qtde)
+  print(media)
