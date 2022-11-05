@@ -1,0 +1,13 @@
+n = int(input())
+m = int(input())
+soma = 0
+i = 1
+while i <= n:
+    j = 1
+    while j <= m:
+        num = i*i*j
+        den = (3**i)*(j*(3**i) + i*(3**j))
+        soma += num/den
+        j += 1
+    i += 1
+print("Soma:",soma)
