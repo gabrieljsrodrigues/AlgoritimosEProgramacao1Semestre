@@ -1,0 +1,10 @@
+primeiro=int(input())
+razao = int(input())
+n = int(input())
+soma = 0
+
+ultimo = primeiro + (n-1)*razao
+ultimo = ultimo + 1
+
+for var in range(primeiro, ultimo, razao):
+  print("{:.0f}" .format(var),end=",")
