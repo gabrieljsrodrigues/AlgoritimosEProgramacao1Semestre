@@ -1,0 +1,10 @@
+n = int(input())
+ 
+j = n
+while j > 0:
+    i = j
+    while i > 0:
+        print(i,end=" ")
+        i -= 1
+    print()
+    j -= 1
